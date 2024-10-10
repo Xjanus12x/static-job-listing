@@ -1,4 +1,4 @@
-import data from "../data/data.tsx";
+import data from "../data/data.json";
 import { JobFilterTag } from "../ui/JobFilterTag";
 import { useJobPosting } from "../context/JobPostingProvider";
 import { AnimatePresence, motion } from "framer-motion";
