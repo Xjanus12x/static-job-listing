@@ -1,4 +1,4 @@
-import data from "../data/data.json";
+import data from "../data/data";
 
 import { createContext, PropsWithChildren, useContext, useState } from "react";
 import { JobPosting } from "../models/JobPosting";

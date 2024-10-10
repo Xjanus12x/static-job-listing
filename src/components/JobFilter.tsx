@@ -1,4 +1,4 @@
-import data from "../data/data.json";
+import data from "../data/data";
 import { JobFilterTag } from "../ui/JobFilterTag";
 import { useJobPosting } from "../context/JobPostingProvider";
 import { AnimatePresence, motion } from "framer-motion";
