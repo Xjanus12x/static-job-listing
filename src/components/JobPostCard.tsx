@@ -3,7 +3,6 @@ import { JobFilterTag } from "../ui/JobFilterTag";
 
 type JobPostingCardProps = JobPosting;
 export default function JobPostingCard({
-  id,
   company,
   logo,
   new: isNew,
@@ -15,7 +14,6 @@ export default function JobPostingCard({
   contract,
   location,
   languages,
-  tools,
 }: JobPostingCardProps) {
   return (
     <article
